@@ -1,7 +1,12 @@
 import "./App.css";
+import GetRandomPokemon from "./components/GetRandomPokemon";
 
 function App() {
-  return <div>Pokemon Challenge</div>;
+  return (
+    <div>
+      <GetRandomPokemon />
+    </div>
+  );
 }
 
 export default App;
